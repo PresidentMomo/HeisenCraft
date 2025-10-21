@@ -1,0 +1,20 @@
+{
+    "sources": [
+      {
+        "type": "single",
+        "resource": "heisencraft:fluid/ephedra_salt_solution"
+      },
+      {
+        "type": "single",
+        "resource": "heisencraft:fluid/ephedra_base_solution"
+      },
+      {
+        "type": "single",
+        "resource": "heisencraft:fluid/psilocybe_salt_solution"
+      },
+      {
+        "type": "single",
+        "resource": "heisencraft:fluid/psilocybe_base_solution"
+      }
+    ]
+  }

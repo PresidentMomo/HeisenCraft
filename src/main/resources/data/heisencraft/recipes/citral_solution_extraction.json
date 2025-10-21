@@ -1,0 +1,35 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "heisencraft:lemongrass"
+    },
+    {
+      "item": "heisencraft:lemongrass"
+    },
+    {
+      "item": "heisencraft:lemongrass"
+    },
+    {
+      "item": "heisencraft:lemongrass"
+    },
+    {
+      "item": "heisencraft:lemongrass"
+    },
+    {
+      "fluid": "minecraft:water",
+      "amount": 500
+    }
+  ],  "results": [
+    {
+      "fluid": "destroy:citral_solution",
+      "amount": 450
+    },
+    {
+      "item": "minecraft:green_dye",
+      "count": 7
+    }
+  ],
+    "processingTime": 200,
+    "heatRequirement": "heated"
+}

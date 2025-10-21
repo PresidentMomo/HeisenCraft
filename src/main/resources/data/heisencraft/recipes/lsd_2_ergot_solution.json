@@ -1,0 +1,60 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "destroy:ergot_base_solution",
+      "amount": 100
+    },
+    {
+      "mixtureFluidWithSalt": "destroy:mixture",
+      "cation": "destroy:ammonium",
+      "anion": "destroy:chloride",
+      "min_concentration": 1.0,
+      "max_concentration": 5.0,
+      "amount": 50
+    }
+  ],
+  "results": [
+    {
+      "fluid": "destroy:mixture",
+      "amount": 150,
+      "nbt": {
+        "Mixture": {
+          "TranslationKey": "fluid.heisencraft.ergot_solution",
+          "Contents": [
+            {
+              "Molecule": "heisencraft:lysergic_acid",
+
+              "Concentration": 0.000074
+            },
+            {
+              "Molecule": "heisencraft:lysergamide",
+              "Concentration": 0.000072
+            },
+            {
+              "Molecule": "destroy:ethanol",
+              "Concentration": 13.132
+            },
+            {
+              "Molecule": "destroy:hydroxide",
+              "Concentration": 0.7
+            },
+            {
+              "Molecule": "destroy:ammonium",
+              "Concentration": 0.7
+            },
+            {
+              "Molecule": "destroy:chloride",
+              "Concentration": 0.7
+            },
+            {
+              "Molecule": "destroy:water",
+              "Concentration": 51.256
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "processingTime": 60
+}

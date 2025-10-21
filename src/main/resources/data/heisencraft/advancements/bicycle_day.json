@@ -1,0 +1,26 @@
+{
+  "parent": "destroy:vat",
+  "criteria": {
+    "make": {
+      "conditions": {},
+      "trigger": "heisencraft:bicycle_day"
+    }
+  },
+  "display": {
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.heisencraft.bicycle_day.description"
+    },
+    "icon": {
+      "item": "destroy:measuring_cylinder"
+    },
+    "title": {
+      "translate": "advancement.heisencraft.bicycle_day"
+    }
+  },
+  "requirements": [
+    [
+      "make"
+    ]
+  ]
+}

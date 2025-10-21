@@ -1,0 +1,20 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "mixtureFluidWithMolecule": "destroy:mixture",
+      "amount": 50,
+      "molecule": "heisencraft:methamphetamine",
+      "min_concentration": 0.1,
+      "max_concentration": 3.0
+    }
+  ],
+  "results": [
+    {
+      "item": "hallucinocraft:blue_meth_crystal",
+      "count": 1
+    }
+  ],
+  "processingTime": 600,
+  "heatRequirement": "heated"
+}

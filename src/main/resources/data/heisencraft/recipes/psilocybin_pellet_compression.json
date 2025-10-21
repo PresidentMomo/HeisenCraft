@@ -1,0 +1,26 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "heisencraft:psilocybin_crystal"
+    },
+    {
+      "item": "heisencraft:psilocybin_crystal"
+    },
+    {
+      "item": "heisencraft:psilocybin_crystal"
+    },
+    {
+      "item": "heisencraft:psilocybin_crystal"
+    },
+    {
+      "item": "heisencraft:psilocybin_crystal"
+    }
+  ],
+  "results": [
+    {
+      "item":  "hallucinocraft:psilocybin_pellet",
+      "count": 1
+    }
+  ]
+}

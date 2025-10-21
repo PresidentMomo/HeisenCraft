@@ -1,0 +1,34 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "hallucinocraft:coca_leaf"
+    },
+    {
+      "item": "hallucinocraft:coca_leaf"
+    },
+    {
+      "item": "hallucinocraft:coca_leaf"
+    },
+    {
+      "item": "hallucinocraft:coca_leaf"
+    },
+    {
+      "item": "hallucinocraft:coca_leaf"
+    },
+    {
+      "fluid": "minecraft:water",
+      "amount": 500
+    }
+  ],  "results": [
+    {
+      "item": "hallucinocraft:coca_mulch",
+      "amount": 1
+    },
+    {
+      "fluid": "minecraft:water",
+      "amount": 400
+    }
+  ],
+    "processingTime": 300
+}

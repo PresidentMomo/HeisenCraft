@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "pureMixture": "destroy:mixture",
+      "species": "heisencraft:psilocybin",
+      "amount": 10
+    }
+  ],
+  "results": [
+    {
+      "item": "heisencraft:psilocybin_crystal",
+      "count": 1,
+      "chance":1
+    }
+  ],
+  "processingTime": 300,
+  "heatRequirement": "heated"
+}

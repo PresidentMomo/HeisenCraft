@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "heisencraft:peyote"
+  },
+  "result": "heisencraft:dried_peyote",
+  "cookingtime": 600
+}

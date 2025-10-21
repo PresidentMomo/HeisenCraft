@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"  # Forge 1.20.1
+license="MIT"
+
+[[mods]]
+modId="heisencraft"
+version="1.0.0"
+displayName="Destroy: HeisenCraft"
+description="Expand the destruction in Minecraft!"
+authors="AetherLith"
+
+# Dependencies should be nested under the [[mods]] section
+[[dependencies]]
+modId="forge"
+versionRange="[47.4.3,)"
+mandatory=true
+ordering="NONE"
+side="BOTH"
+
+[[dependencies]]
+modId="destroy"
+versionRange="[0.1.1,0.1.5)"
+mandatory=true  # Changed to true since you need Destroy
+ordering="AFTER"
+side="BOTH"

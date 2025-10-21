@@ -1,0 +1,66 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "destroy:coca_base_solution",
+      "amount": 100
+    },
+    {
+      "pureMixture": "destroy:mixture",
+      "species": "destroy:ammonia",
+      "amount": 100
+    }
+  ],  "results": [
+  {
+      "fluid": "destroy:mixture",
+      "amount": 50,
+      "nbt": {
+        "Mixture": {
+          "TranslationKey": "fluid.destroy.agua_rica",
+          "Contents": [
+            {
+              "Molecule": "heisencraft:cocaine",
+              "Concentration": 0.05
+            },
+            {
+              "Molecule": "destroy:dichloromethane",
+              "Concentration": 5.85
+            }
+          ]
+        }
+      }
+    },
+  {
+    "fluid": "destroy:mixture",
+    "amount": 50,
+    "nbt": {
+      "Mixture": {
+
+        "Contents": [
+          {
+            "Molecule": "destroy:water",
+            "Concentration": 55.542
+          },
+          {
+            "Molecule": "destroy:sulfuric_acid",
+            "Concentration": 0.0081
+          },
+          {
+            "Molecule": "destroy:hydroxide",
+            "Concentration": 0.009
+          },
+          {
+            "Molecule": "destroy:sodium_ion",
+            "Concentration": 0.007
+          }
+        ]
+      }
+    }
+  },
+    {
+      "item": "minecraft:bone_meal",
+      "count": 2
+    }
+  ],
+    "processingTime": 260
+}

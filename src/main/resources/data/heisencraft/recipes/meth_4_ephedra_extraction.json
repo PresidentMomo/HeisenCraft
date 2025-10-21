@@ -1,0 +1,63 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "destroy:ephedra_base_solution",
+      "amount": 100
+    },
+    {
+      "mixtureFluidWithMolecule": "destroy:mixture",
+      "amount": 50,
+      "molecule": "destroy:toluene",
+      "min_concentration": 5.0,
+      "max_concentration": 15.0
+    }
+  ],  "results": [
+  {
+    "fluid": "destroy:mixture",
+    "amount": 50,
+    "nbt": {
+      "Mixture": {
+        "TranslationKey": "fluid.heisencraft.ephedrine_solution",
+        "Contents": [
+          {
+            "Molecule": "destroy:toluene",
+            "Concentration": 4.632
+          },
+          {
+            "Molecule": "heisencraft:ephedrine",
+
+            "Concentration": 6.66
+          },
+          {
+            "Molecule": "heisencraft:pseudoephedrine",
+            "Concentration": 3.33
+          },
+          {
+            "Molecule": "heisencraft:norephedrine",
+            "Concentration": 0.97
+          },
+          {
+            "Molecule": "heisencraft:methylephedrine",
+            "Concentration": 0.02
+          }
+        ]
+      }
+    }
+  },
+  {
+    "fluid": "destroy:mixture",
+    "amount": 50,
+    "nbt": {
+      "Mixture": {
+        "Contents": [
+          {
+            "Molecule": "destroy:water",
+            "Concentration": 55.542
+          }
+        ]
+      }
+    }
+  }
+]
+}

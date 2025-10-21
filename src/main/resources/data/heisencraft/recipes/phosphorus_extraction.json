@@ -1,0 +1,47 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "create:limestone"
+    },
+    {
+      "item": "create:limestone"
+    },
+    {
+      "item": "create:limestone"
+    },
+    {
+      "item": "create:limestone"
+    },
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "minecraft:coal"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:gray_concrete_powder"
+    },
+    {
+      "fluid": "destroy:mixture",
+      "amount": 100,
+      "nbt": {
+        "Mixture": {
+          "TranslationKey": "fluid.heisencraft.white_phosphorus_solution",
+          "Contents": [
+            {
+              "Molecule": "heisencraft:tetraphosphorus:nochain",
+              "Concentration": 14.2
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "heatRequirement": "superheated"
+}

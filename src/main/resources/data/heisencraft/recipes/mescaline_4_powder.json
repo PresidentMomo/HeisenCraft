@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "mixtureFluidWithMolecule": "destroy:mixture",
+      "amount": 20,
+      "molecule": "heisencraft:mescaline",
+      "min_concentration": 1,
+      "max_concentration": 7
+    }
+  ],
+  "results": [
+    {
+      "item": "heisencraft:mescaline_powder",
+      "count": 1,
+      "chance":1
+    }
+  ],
+  "processingTime": 400,
+  "heatRequirement": "heated"
+}

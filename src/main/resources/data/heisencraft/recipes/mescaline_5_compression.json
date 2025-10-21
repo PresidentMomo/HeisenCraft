@@ -1,0 +1,13 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "heisencraft:mescaline_powder"
+    }
+  ],
+  "results": [
+    {
+      "item": "hallucinocraft:mescaline_pill"
+    }
+  ]
+}

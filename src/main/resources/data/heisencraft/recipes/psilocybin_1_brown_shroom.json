@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "hallucinocraft:brown_shrooms"
+    }
+  ],
+  "results": [
+    {
+      "item": "heisencraft:psilocybe_powder",
+      "count": 1
+    }
+  ],
+  "processingTime": 60
+}

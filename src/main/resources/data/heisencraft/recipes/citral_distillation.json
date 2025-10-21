@@ -1,0 +1,42 @@
+{
+  "type": "destroy:distillation",
+  "ingredients": [
+    {
+      "fluid": "destroy:citral_solution",
+      "amount": 100
+    }
+  ],
+   "results": [
+    {
+       "fluid": "destroy:mixture",
+       "amount": 80,
+       "nbt": {
+         "Mixture": {
+           "TranslationKey": "fluid.destroy.distilled_water",
+           "Contents": [
+             {
+               "Molecule": "destroy:water",
+               "Concentration": 55.555556
+             }
+           ]
+         }
+       }
+     },
+     {
+       "fluid": "destroy:mixture",
+       "amount": 20,
+       "nbt": {
+         "Mixture": {
+           "TranslationKey": "fluid.destroy.citral_solution",
+           "Contents": [
+             {
+               "Molecule": "heisencraft:citral",
+               "Concentration": 0.184
+             }
+           ]
+         }
+       }
+     }
+  ],
+    "heatRequirement": "heated"
+}

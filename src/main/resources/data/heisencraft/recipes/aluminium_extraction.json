@@ -1,0 +1,12 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "destroy:nether_crocoite"
+    }
+  ],
+  "results": [
+    { "item": "heisencraft:crushed_raw_aluminium", "chance": 0.75 }
+  ],
+  "processingTime": 250
+}

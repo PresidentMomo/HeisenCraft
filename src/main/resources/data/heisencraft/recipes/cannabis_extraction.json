@@ -1,0 +1,46 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "hallucinocraft:dried_cannabis_leaf"
+    },
+    {
+      "item": "hallucinocraft:dried_cannabis_leaf"
+    },
+    {
+      "item": "hallucinocraft:dried_cannabis_leaf"
+    },
+    {
+      "item": "hallucinocraft:dried_cannabis_leaf"
+    },
+    {
+      "item": "hallucinocraft:dried_cannabis_leaf"
+    },
+    {
+      "pureMixture": "destroy:mixture",
+      "species": "destroy:ethanol",
+      "amount": 100
+    }
+  ],
+  "results": [
+
+    {
+      "fluid": "destroy:mixture",
+      "amount": 100,
+      "nbt": {
+        "Mixture": {
+          "TranslationKey": "fluid.heisencraft.cannabis_solution",
+          "Contents": [
+            {
+              "Molecule": "heisencraft:thc",
+              "Concentration": 0.333
+            },
+            {
+              "Molecule": "destroy:ethanol"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

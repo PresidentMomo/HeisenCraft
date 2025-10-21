@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "hallucinocraft:syringe"
+    },
+    {
+      "pureMixture": "destroy:mixture",
+      "species": "heisencraft:dimethyltryptamine",
+      "amount": 5
+    }
+  ],
+  "results": [
+    {
+      "item": "hallucinocraft:dmt_syringe"
+    }
+  ]
+}

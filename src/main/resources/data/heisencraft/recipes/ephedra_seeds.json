@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "E"
+  ],
+  "key": {
+    "E": {
+      "item": "heisencraft:ephedra"
+    }
+  },
+  "result": {
+    "item": "heisencraft:ephedra_seeds"
+  }
+}

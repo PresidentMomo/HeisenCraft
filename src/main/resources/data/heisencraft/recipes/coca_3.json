@@ -1,0 +1,27 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "destroy:agua_rica",
+      "amount": 50
+    },
+    {
+      "mixtureFluidWithSalt": "destroy:mixture",
+      "cation": "destroy:sodium_ion",
+      "anion": "destroy:hydroxide",
+      "min_concentration": 1.0,
+      "max_concentration": 5.0,
+      "amount": 50
+    }
+  ],  "results": [
+    {
+      "fluid": "destroy:coca_paste_solution",
+      "amount": 50
+    },
+    {
+      "item": "minecraft:bone_meal",
+      "count": 1
+    }
+  ],
+    "processingTime": 160
+}

@@ -1,0 +1,36 @@
+# Gradle
+.gradle/
+build/
+!build/resources/main/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*.swo
+
+# Eclipse
+.settings/
+bin/
+*.launch
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+debug.log
+
+# Archivos generados
+out/
+eclipse/
+run/
+
+# Minecraft development
+run/
+classes/
+generated/

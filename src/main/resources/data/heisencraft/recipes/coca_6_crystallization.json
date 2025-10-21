@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "pureMixture": "destroy:mixture",
+      "species": "heisencraft:cocaine",
+      "amount": 10
+    }
+
+  ],  "results": [
+    {
+      "item":  "hallucinocraft:cocaine_dust",
+      "count": 1
+    }
+  ],
+    "processingTime": 300,
+    "heatRequirement": "heated"
+}

@@ -1,0 +1,37 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "heisencraft:crushed_ephedra"
+    },
+    {
+      "item": "heisencraft:crushed_ephedra"
+    },
+    {
+      "item": "heisencraft:crushed_ephedra"
+    },
+    {
+      "item": "heisencraft:crushed_ephedra"
+    },
+    {
+      "item": "heisencraft:crushed_ephedra"
+    },
+    {
+      "mixtureFluidWithMolecule": "destroy:mixture",
+      "molecule": "destroy:sulfuric_acid",
+      "min_concentration": 0.1,
+      "max_concentration": 1.0,
+      "amount": 100
+    }
+  ],  "results": [
+    {
+      "fluid": "destroy:ephedra_salt_solution",
+      "amount": 100
+    },
+    {
+      "item": "minecraft:bone_meal",
+      "count": 5
+    }
+  ],
+    "processingTime": 120
+}

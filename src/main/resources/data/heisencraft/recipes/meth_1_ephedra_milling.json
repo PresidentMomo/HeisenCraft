@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "heisencraft:ephedra"
+    }
+  ],
+  "results": [
+    {
+      "item": "heisencraft:ephedra_seeds",
+      "count": 1,
+      "chance":0.7
+    },
+    {
+      "item": "heisencraft:crushed_ephedra",
+      "count": 1,
+      "chance":1
+    }
+  ],
+  "processingTime": 60
+}

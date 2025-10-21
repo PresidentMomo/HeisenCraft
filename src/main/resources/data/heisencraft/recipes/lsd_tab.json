@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "pureMixture": "destroy:mixture",
+      "species": "heisencraft:d_lsd",
+      "amount": 5
+    }
+  ],
+  "results": [
+    {
+      "item": "hallucinocraft:lsd_tab"
+    }
+  ]
+}

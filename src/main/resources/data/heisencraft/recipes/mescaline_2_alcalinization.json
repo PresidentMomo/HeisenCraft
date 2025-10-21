@@ -1,0 +1,24 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "destroy:mescaline_salt_solution",
+      "amount": 50
+    },
+    {
+      "mixtureFluidWithSalt": "destroy:mixture",
+      "cation": "destroy:sodium_ion",
+      "anion": "destroy:hydroxide",
+      "min_concentration": 1.0,
+      "max_concentration": 5.0,
+      "amount": 50
+    }
+  ],
+  "results": [
+    {
+      "fluid": "destroy:mescaline_base_solution",
+      "amount": 100
+    }
+  ],
+  "processingTime": 200
+}

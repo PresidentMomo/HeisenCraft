@@ -1,0 +1,57 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "destroy:mescaline_base_solution",
+      "amount": 100
+    },
+    {
+      "mixtureFluidWithMolecule": "destroy:mixture",
+      "amount": 50,
+      "molecule": "destroy:dichloromethane",
+      "min_concentration": 7.0,
+      "max_concentration": 16.0
+    }
+  ],
+  "results": [
+    {
+      "fluid": "destroy:mixture",
+      "amount": 50,
+      "nbt": {
+        "Mixture": {
+          "TranslationKey": "fluid.heisencraft.mescaline_solution",
+          "Contents": [
+            {
+              "Molecule": "heisencraft:mescaline",
+              "Concentration": 3.3
+            },
+            {
+              "Molecule": "destroy:dichloromethane",
+              "Concentration": 5.571
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fluid": "destroy:mixture",
+      "amount": 50,
+      "nbt": {
+        "Mixture": {
+          "TranslationKey": "fluid.heisencraft.solvents_solution",
+          "Contents": [
+            {
+              "Molecule": "destroy:water",
+              "Concentration": 55.542
+            }
+          ]
+        }
+      }
+    },
+    {
+      "item": "minecraft:bone_meal",
+      "count": 1
+    }
+  ],
+  "processingTime": 600
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "cross": "heisencraft:block/wild_lemongrass"
+  }
+}

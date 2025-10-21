@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "pureMixture": "destroy:mixture",
+      "species": "heisencraft:tetraphosphorus:nochain",
+      "amount": 500
+    }
+  ],
+  "results": [
+    {
+      "item": "heisencraft:red_phosphorus"
+    }
+  ],
+  "heatRequirement": "heated"
+}
