@@ -5,11 +5,22 @@ import com.tterrag.registrate.Registrate;
 import com.tterrag.registrate.util.entry.BlockEntry;
 import net.minecraft.world.level.block.Blocks;
 
+import com.tterrag.registrate.providers.ProviderType;
+import com.tterrag.registrate.util.entry.BlockEntry;
+import net.minecraft.core.HolderSet;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.BiomeTags;
+import net.minecraft.world.level.levelgen.GenerationStep;
+import net.minecraftforge.common.world.ForgeBiomeModifiers;
+
 public class HeisenCraftBlocks {
     public static BlockEntry<EphedraBlock> EPHEDRA_CROP_BLOCK;
     public static BlockEntry<RyeBlock> RYE_CROP_BLOCK;
     public static BlockEntry<LemongrassBlock> LEMONGRASS_CROP;
-    public static BlockEntry<PeyoteBlock> PEYOTE;
+    public static BlockEntry<PeyoteBlock> PEYOTE_BLOCK;
     /*public static BlockEntry<CannabisPlantBlock> CANNABIS;
     public static BlockEntry<CocaPlantBlock> COCA;*/
 
@@ -22,7 +33,7 @@ public class HeisenCraftBlocks {
                 .initialProperties(() -> Blocks.BEETROOTS)
                 .register();
 
-        PEYOTE = REGISTRATE.block("peyote", PeyoteBlock::new)
+        PEYOTE_BLOCK = REGISTRATE.block("peyote_block", PeyoteBlock::new)
                 .initialProperties(() -> Blocks.CACTUS)
                 .simpleItem()
                 .register();
@@ -35,5 +46,6 @@ public class HeisenCraftBlocks {
         LEMONGRASS_CROP = REGISTRATE.block("lemongrass_crop", LemongrassBlock::new)
                 .initialProperties(() -> Blocks.WHEAT)
                 .register();
+
     }
 }

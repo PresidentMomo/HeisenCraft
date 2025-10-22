@@ -1,0 +1,6 @@
+{
+  "parent": "heisencraft:block/peyote",
+  "textures": {
+    "layer0": "heisencraft:item/peyote"
+  }
+}

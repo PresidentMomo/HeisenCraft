@@ -452,7 +452,7 @@
 
   "block.heisencraft.ephedra_crop_block": "Ephedra Crop",
   "block.heisencraft.rye_crop_block": "Rye Crop",
-  "block.heisencraft.peyote": "Peyote",
+  "block.heisencraft.peyote_block": "Peyote",
   "block.heisencraft.cannabis": "Cannabis Plant",
   "block.heisencraft.coca": "Coca Plant",
   "block.heisencraft.lemongrass_crop": "Lemongrass Crop",
@@ -485,7 +485,7 @@
 
   "ephedra_tooltip": "§7A hardy shrub whose dry branches yield potent alkaloids. Handle with care.",
   "lemongrass_tooltip": "§7A fragrant grass with a sharp, citrus scent. Useful in extractions and teas.",
-  "peyote_tooltip": "§7A small, spineless cactus harboring powerful visionary compounds within its 'buttons'.",
+  "peyote_tooltip": "§7A small cactus, harboring powerful visionary compounds within its 'buttons'.",
 
   "advancements.heisencraft.bicycle_day": "Bicycle Day",
   "advancements.heisencraft.bicycle_day.description": "Experience the effects of a special substance"

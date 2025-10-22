@@ -3,7 +3,7 @@ package com.aetherlith.heisencraft;
 
 import com.aetherlith.heisencraft.item.EphedraItem;
 import com.aetherlith.heisencraft.item.LemongrassItem;
-import com.aetherlith.heisencraft.item.PeyoteItem;
+import com.aetherlith.heisencraft.item.PeyoteBlockItem;
 import com.tterrag.registrate.Registrate;
 import com.tterrag.registrate.util.entry.ItemEntry;
 import net.minecraft.world.item.Item;
@@ -13,7 +13,7 @@ import net.minecraft.world.item.ItemNameBlockItem;
 public class HeisenCraftItems {
 
     public static ItemEntry<Item> CRUSHED_EPHEDRA;
-    public static ItemEntry<PeyoteItem> PEYOTE;
+    public static ItemEntry<PeyoteBlockItem> PEYOTE;
     public static ItemEntry<Item> DRIED_PEYOTE;
     public static ItemEntry<Item> PEYOTE_POWDER;
     public static ItemEntry<Item> MESCALINE_POWDER;
@@ -55,7 +55,7 @@ public class HeisenCraftItems {
                 .register();
         LEMONGRASS_SEEDS = REGISTRATE.item("lemongrass_seeds", p -> new ItemNameBlockItem(HeisenCraftBlocks.LEMONGRASS_CROP.get(), p))
                 .register();
-        PEYOTE = REGISTRATE.item("peyote", PeyoteItem::new)
+        PEYOTE = REGISTRATE.item("peyote", p -> new PeyoteBlockItem(HeisenCraftBlocks.PEYOTE_BLOCK.get(), p))
                 .register();
         DRIED_PEYOTE = REGISTRATE.item("dried_peyote", Item::new)
                 .register();

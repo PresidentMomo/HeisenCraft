@@ -14,6 +14,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.Level;
@@ -59,8 +60,13 @@ public class PeyoteBlock extends Block implements BonemealableBlock {
     }
 
     @Override
+    public boolean canBeReplaced(BlockState state, BlockPlaceContext context) {
+        return false;
+    }
+
+    @Override
     public boolean canSurvive(BlockState state, LevelReader world, BlockPos pos) {
-        return world.getBlockState(pos.below()).is(Blocks.SAND);
+        return world.getBlockState(pos.below()).is(Blocks.SAND) || world.getBlockState(pos.below()).is(Blocks.RED_SAND);
     }
 
     @Override
@@ -114,13 +120,13 @@ public class PeyoteBlock extends Block implements BonemealableBlock {
     public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
         List<ItemStack> drops = new ArrayList<>();
         int age = state.getValue(AGE);
-        int peyoteCount = 1;
-        if (age == 3) {
-            peyoteCount = 2;
-        }
-        drops.add(new ItemStack(this, peyoteCount));
+        int peyoteCount = (age == 3) ? 2 : 1;
+
+        Item peyoteItem = HeisenCraftItems.PEYOTE.get();
+        drops.add(new ItemStack(peyoteItem, peyoteCount));
 
         return drops;
     }
+
 
 }
